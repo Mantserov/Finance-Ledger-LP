@@ -18,5 +18,11 @@
     &__img {
         width: 100%;
         object-fit: cover;
+        transition-duration: 200ms;
+    
+        &:hover {
+            filter: brightness(50%);
+        }
     }
+    
 }
